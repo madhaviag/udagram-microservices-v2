@@ -27,7 +27,7 @@ install:
 
 script:
   - kubectl get pods
-  - kubectl set image deployments/backend-feed backend-feed=juadel/udagram-feed-v2:latest
-  - kubectl set image deployments/backend-user backend-user=juadel/udagram-user-v2:latest
-  - kubectl set image deployments/frontend frontend=juadel/udagram-frontend-v2:latest
-  - kubectl set image deployments/reverseproxy reverseproxy=juadel/reverseproxy-v2:latest
+  - kubectl set image deployments/backend-feed backend-feed=madhaviag/udagram-feed-v2:latest
+  - kubectl set image deployments/backend-user backend-user=madhaviag/udagram-user-v2:latest
+  - kubectl set image deployments/frontend frontend=madhaviag/udagram-frontend-v2:latest
+  - kubectl set image deployments/reverseproxy reverseproxy=madhaviag/reverseproxy-v2:latest
